@@ -1,0 +1,52 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://utda.github.io/shelly/files/tile/shelly/manifest.json",
+	"@type": "sc:Manifest",
+	"label": "倭寇図巻",
+	"sequences": [{
+		"@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/sequence/normal",
+		"@type": "sc:Sequence",
+		"label": "Current Page Order",
+		"viewingHint": "non-paged",
+		"canvases": [{
+			"@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1",
+			"@type": "sc:Canvas",
+			"label": "[1]",
+			"thumbnail": {
+				"@id": "https://github.com/nakamura196/wako_layers/raw/master/docs/2/12_trim.jpeg"
+			},
+			"width": 8612,
+			"height": 6470,
+			"images": [{
+				"@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/annotation/p0001-image",
+				"@type": "oa:Annotation",
+				"motivation": "sc:painting",
+				"on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1",
+				"resource": {
+					"@id": "https://github.com/nakamura196/wako_layers/raw/master/docs/2/12_trim.jpeg",
+					"@type": "oa:Choice",
+					"default": {
+						"@id": "https://github.com/nakamura196/wako_layers/raw/master/docs/2/12_trim.jpeg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"height": 6470,
+						"label": "元画像",
+						"width": 8612
+					},
+					"format": "image/jpeg",
+					"height": 6470,
+					"item": [{
+						"@id": "https://github.com/nakamura196/wako_layers/raw/master/docs/2/3.jpeg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"height": 6470,
+						"label": "赤外線画像",
+						"width": 8612
+					}],
+					"width": 8612
+				}
+			}]
+		}]
+	}],
+	"viewingDirection": "left-to-right"
+}
