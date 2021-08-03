@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 import json
 
-dir = "docs/2_1"
+dir = "docs/2_2"
 
 with open(dir + "/config.json") as f:
     df = json.load(f)
